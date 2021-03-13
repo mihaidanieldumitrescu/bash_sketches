@@ -4,6 +4,9 @@ GIT_INIT_FOLDER=/tmp/test_force_with_lease.git
 master_branch_name=master
 derivate_branch_name=derivate_branch
 
+# TODO commit name should include branchname
+# simulate conflict by adding a dummy file and deleting random lines
+
 function reset {
   echo "reset"
   echo
